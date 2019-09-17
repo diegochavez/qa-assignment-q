@@ -1,0 +1,20 @@
+.buttonSearch {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-image: linear-gradient(-180deg, #D8D8D8 0%, #B3B3B3 100%);
+    border: 1px solid #979797;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20), inset 0 2px 0 0 #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    text-align: center;
+    text-shadow: 0 1px 0 #FFFFFF; 
+}
+.buttonSearch:disabled{
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    color: #bbbbbb;
+}
