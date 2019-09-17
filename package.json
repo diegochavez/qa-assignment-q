@@ -14,8 +14,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "start:frontend": "REACT_APP_URL=/cars react-scripts start",
-    "build:frontend": "REACT_APP_URL=/cars react-scripts build",
+    "build": "REACT_APP_URL=/cars react-scripts build",
     "start:build": "npx serve ./build -p 3000"
   },
   "eslintConfig": {
